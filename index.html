@@ -56,6 +56,10 @@
       <p class="lowOrHi"></p>
     </div>
 
+    <label for="guessField">Adivina el número: </label
+    ><input type="text" id="guessField" class="guessField" />
+    <input type="submit" value="Enviar respuesta" class="guessSubmit" />
+
     <script>
       let randomNumber = Math.floor(Math.random() * 100) + 1;
 
@@ -68,6 +72,10 @@
 
       let guessCount = 1;
       let resetButton;
+
+      function checkGuess() {
+        alert("Soy un marcador de posición");
+      }
     </script>
   </body>
 </html>
